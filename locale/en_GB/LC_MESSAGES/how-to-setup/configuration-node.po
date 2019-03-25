@@ -213,7 +213,7 @@ msgstr ""
 #: ../../how-to-setup/configuration-node.rst:70
 #: ../../how-to-setup/configuration-node.rst:201
 msgid ""
-"wavesCrypto – выбор криптографического алгоритма (\"yes\" - использовать "
+"waves-crypto – выбор криптографического алгоритма (\"yes\" - использовать "
 "криптографию :ref:`Waves <crypto-waves>`, \"no\" - использовать "
 ":ref:`ГОСТ-криптографию <crypto-gost>`);"
 msgstr ""
