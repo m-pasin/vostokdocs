@@ -1,0 +1,67 @@
+﻿.wy-nav-content {
+  max-width: 1050px
+}
+
+div.wy-menu p.caption {
+  margin-top: 10px;
+  margin-left: -10px;
+  color: white;
+}
+
+.wy-side-nav-search a.icon-home {
+ color: transparent;
+ background-repeat: no-repeat;
+ height: 20px;
+ width: 100%;
+ margin: 0px;
+ position: absolute;
+ display: block;
+ top: -50px;
+}
+
+.wy-side-nav-search {
+ background-color: white;
+ padding-bottom: 20px;
+}
+
+.wy-side-nav-search input[type=text] {
+ border-color: #cccccc;
+ border-radius: 10px;
+}
+
+.wy-side-nav-search img {
+ background-color: #ffffff;
+
+}
+
+.wy-form {
+ position: relative;
+ top: 75px;  
+}
+
+a.lang:hover {text-decoration: underline;}
+
+
+/* -- math display ---------------------------------------------------------- */
+
+img.math {
+  vertical-align: middle;
+}
+
+div.body div.math p {
+  text-align: center;
+}
+
+span.eqno {
+  float: right;
+}
+
+span.eqno a.headerlink {
+  position: relative;
+  left: 0px;
+  z-index: 1;
+}
+
+div.math:hover a.headerlink {
+  visibility: visible;
+}
