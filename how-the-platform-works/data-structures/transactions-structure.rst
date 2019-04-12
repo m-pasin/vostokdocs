@@ -33,6 +33,7 @@
 106   :ref:`DisableContract Transaction <DisableContractTransaction>`
 110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`
 111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`
+111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`
 ===   ========================================================================================================================================================================================================
 
 .. _GenesisTransaction:
@@ -1098,6 +1099,29 @@
 .. _RegisterNodeTransaction:
 
 111. RegisterNodeTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
+
+   type             ,+      ,+      ,+      ,Byte
+   id               ,       ,+      ,       ,Byte
+   sender           ,+      ,+      ,       ,PublicKeyAccount
+   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
+   fee              ,       ,+      ,       ,Long
+   timestamp        ,+ (opt),+      ,+      ,Long
+   proofs           ,       ,+      ,+      ,List[ByteStr]
+   version          ,       ,       ,+      ,Byte
+   targetPubKey     ,+      ,+      ,+      ,PublicKeyAccount
+   nodeName         ,+      ,+      ,+      ,String
+   opType           ,+      ,+      ,+      ,
+   height           ,       ,+      ,       ,
+
+
+.. _PolicyTransaction:
+
+112. PolicyTransaction/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::

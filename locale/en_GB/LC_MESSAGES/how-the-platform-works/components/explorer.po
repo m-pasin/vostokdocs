@@ -79,7 +79,7 @@ msgstr ""
 # 75550a3c3bdf492993ef0429db47c3cb
 #: ../../how-the-platform-works/components/explorer.rst:22
 msgid "Переключатель между группами транзакций и пользователями"
-msgstr "Toggle between transaction groups and users"
+msgstr "The switch between transaction groups and users"
 
 # 432eabf634684df997999fb82888e899
 #: ../../how-the-platform-works/components/explorer.rst:24
@@ -87,7 +87,7 @@ msgid ""
 "Переключатель формирует список транзакцияй выбранной группы или список "
 "пользователей:"
 msgstr ""
-"Toggle generates a list of transactions for a selected group or list of users:"
+"The switch generates a list of transactions for a selected group or the list of users:"
 
 # f7af068f788d4cf8ac16006e0cf73391
 #: ../../how-the-platform-works/components/explorer.rst:26
@@ -121,8 +121,8 @@ msgid ""
 "при регистрации через интерфейс. Адреса, созданные другим способом, "
 "рассматриваются как служебные."
 msgstr ""
-"A user in Vostok is an alias address. Alias is assigned when you register "
-"through the interface. Addresses created in another way are treated as service "
+"Any user has an alias address inside the Vostok platform. The alias is assigned during "
+"the registration via the interface. Addresses created otherwise are treated as service "
 "addresses."
 
 # 0f6e3a9180f244d1a0a0620ec49748fc
@@ -133,31 +133,31 @@ msgstr "Search"
 # 344568fed6cc477fb09a77140f15d66c
 #: ../../how-the-platform-works/components/explorer.rst:36
 msgid ""
-"Ищет в выбранных полях транзакций вхождения символов, введеных в поисковую "
-"строку. Для поиска по конкретной группе транзакций, укажите её переключателем."
+"Поиск производится в выбранных полях транзакций вхождения символов, введеных в поисковую "
+"строку. Для поиска по конкретной группе транзакций укажите её при помощи переключателя."
 msgstr ""
-"Searches in selected transaction fields for occurrences of characters entered "
-"in search line. To search for a specific group of transactions, specify it "
-"using a toggle."
+"Search is using inside selected transaction fields for finding the occurrences of characters entered "
+"into tne search line. To search for a specific group of transactions, specify it "
+"using a switch."
 
 # db308145d0fc441ead010b173c148a5b
 #: ../../how-the-platform-works/components/explorer.rst:40
 msgid "**Описание полей транзакций, в которых идёт поиск**"
-msgstr "**Description of transaction fields to be searched**"
+msgstr "**Description of transaction fields used for search**"
 
 # ccc81d1a25db422792217e09cd063cf2
 #: ../../how-the-platform-works/components/explorer.rst:42
 msgid ""
-"\"Искать в сообщениях и в описаниях токенов\" —  в сообщениях в трансферах и "
-"масс-трансферах и в описаниях токенов."
+"\"Искать в сообщениях и в описаниях токенов\" — поиск в сообщениях трансферов и "
+"масс-трансферов, а также в описаниях токенов."
 msgstr ""
 "\"Search in messages and in token descriptions\" — seacrhes in transfer "
-"messages and mass transfers and in token descriptions."
+"and mass transfer messages, also in token descriptions."
 
 # e6ed43fa80e349bcadc57f8847702b39
 #: ../../how-the-platform-works/components/explorer.rst:43
 msgid ""
-"\"Искать по номеру блока\" — в поле «высота блока», в котором находится "
+"\"Искать по номеру блока\" — поиск в поле «Высота блока», в котором находится "
 "транзакция."
 msgstr ""
 "Search by block number — searches in \"Block Height\" field where the "
@@ -166,7 +166,7 @@ msgstr ""
 # 52369c557976410da27f09d14ed078ad
 #: ../../how-the-platform-works/components/explorer.rst:44
 msgid ""
-"\"Искать в авторах и отправителях транзакций\" —  в адресах или псевдонимах "
+"\"Искать в авторах и отправителях транзакций\" — поиск в адресах или псевдонимах "
 "отправителей транзакций."
 msgstr ""
 "\"Search in authors and transaction senders\" — searches in addresses or "
@@ -175,16 +175,16 @@ msgstr ""
 # 0728b565254c45fcb93cea57ab97ddec
 #: ../../how-the-platform-works/components/explorer.rst:45
 msgid ""
-"\"Искать в получателях транзакций\" —  в адресах или псевдонимах отправителей "
+"\"Искать в получателях транзакций\" — поиск в адресах или псевдонимах получателей "
 "транзакций."
 msgstr ""
 "\"Search in transaction recipients\" — searches in addresses or aliases of "
-"transaction senders."
+"transaction recipients."
 
 # 9ee6249a404b4c5b9f77704f6516878c
 #: ../../how-the-platform-works/components/explorer.rst:46
 msgid ""
-"\"Искать как участника\"  —  в адресах или псевдонимах отправителей и "
+"\"Искать как участника\" — поиск в адресах или псевдонимах отправителей и "
 "получателей транзакций."
 msgstr ""
 "\"Search as a participant\" — searches in addresses or aliases of senders and "
@@ -192,41 +192,41 @@ msgstr ""
 
 # faf11d85ac254f209f38ce6176a30c41
 #: ../../how-the-platform-works/components/explorer.rst:47
-msgid "\"Искать в идентификаторах транзакций\"  —  в идентификаторах транзакций."
+msgid "\"Искать в идентификаторах транзакций\" — поиск в идентификаторах транзакций."
 msgstr "\"Search in transaction IDs\" — searches in transaction ID's."
 
 # f1469ba026f843998d36b5cbe4c99667
 #: ../../how-the-platform-works/components/explorer.rst:48
 msgid ""
-"\"Искать в идентификаторах токена\"  —   в идентификаторах токенов. "
-"Идентификатор токена = идентификатору транзакции выпуска."
+"\"Искать в идентификаторах токена\" — поиск в идентификаторах токенов. "
+"Идентификатор токена равен идентификатору транзакции выпуска."
 msgstr ""
-"\"Search in Token ID's\" — searches in token ID's. Token ID = by issue "
+"\"Search in Token ID's\" — searches in token ID's. Token ID is equal to the issue "
 "transaction ID."
 
 # 29c8ee16428f42cfbfdfc1c656dc4850
 #: ../../how-the-platform-works/components/explorer.rst:49
 msgid ""
-"\"Искать в подписях\" —  в подписях транзакций. Подпись транзакции — служебная "
+"\"Искать в подписях\" — поиск в подписях транзакций. Подпись транзакции — служебная "
 "информация и не отображается в интерфейсе."
 msgstr ""
-"\"Search in Proofs\" — searches in transaction proofs. Transaction proof is "
+"\"Search in signatures\" — searches in transaction signatures. Transaction signature is "
 "service information and is not displayed in the interface."
 
 # eb89f3d509f240ab82fec73b257144e2
 #: ../../how-the-platform-works/components/explorer.rst:50
-msgid "\"Искать в транзакциях с данными\" —  в ключах и значениях транзакций."
+msgid "\"Искать в транзакциях с данными\" — поиск в ключах и значениях транзакций."
 msgstr ""
 "\"Search in Data Transactions\" — searches in transaction keys and values."
 
 # 54fb9d6123f24698b7b2870c910bd4b5
 #: ../../how-the-platform-works/components/explorer.rst:51
 msgid ""
-"\"Искать везде\" — ищет по всем вышеперечисленным полям, будет доступно в "
+"\"Искать везде\" — поиск по всем вышеперечисленным полям, будет доступно в "
 "релизе 0.8."
 msgstr ""
-"\"Search Everywhere\" — searches all above fields, will be available in "
-"release 0.8."
+"\"Search Everywhere\" — searches all above fields, this feature will be available in "
+"0.8 release."
 
 # 8c1231f84d6d42259dbe17f14d2f23a4
 #: ../../how-the-platform-works/components/explorer.rst:53
@@ -234,33 +234,33 @@ msgid ""
 "При поиске по данным используйте запрос ключ\\значение чтобы быстро получить "
 "нужную транзакцию."
 msgstr ""
-"When searching for data, use the key\\value query to get the required "
+"Use the key\\value query during search inside the data to get the required "
 "transaction quickly."
 
 # f73372aeff634c67af473bb965ba5168
 #: ../../how-the-platform-works/components/explorer.rst:55
-msgid "Для переключатели «Пользователи»"
-msgstr "For toggle 'Users\""
+msgid "Для переключателя «Пользователи»"
+msgstr "For the switch \"Users\""
 
 # 779b0e578d514b7486f70382b397b634
 #: ../../how-the-platform-works/components/explorer.rst:57
-msgid "\"Искать по адресу\" —  в адресах пользователей."
-msgstr "Search by address — searches in user addresses."
+msgid "\"Искать по адресу\" — поиск в адресах пользователей."
+msgstr "\"Search by address\" — searches in user addresses."
 
 # 68ba93380c68444ab11a373a3063378d
 #: ../../how-the-platform-works/components/explorer.rst:58
-msgid "\"Искать в псевдонимах\" —  в псевдонимах пользователей."
+msgid "\"Искать в псевдонимах\" — поиск в псевдонимах пользователей."
 msgstr "\"Search in Aliases\" — searches in aliases of users."
 
 # a92ec1f31ec6485ebaca43b5d2ca4970
 #: ../../how-the-platform-works/components/explorer.rst:61
-msgid "Карточки с информацией о транзакциях"
-msgstr "Transaction Information Tabs"
+msgid "Страница с информацией о транзакциях"
+msgstr "Transaction Information Page"
 
 # 3bdf61199aaa4eea93f3f5b023aef0ae
 #: ../../how-the-platform-works/components/explorer.rst:62
-msgid "Содержат вкладки:"
-msgstr "Contain tabs:"
+msgid "Содержит вкладки:"
+msgstr "Contains tabs:"
 
 # 79ec2f98bafa4f65be332a89bfee973d
 #: ../../how-the-platform-works/components/explorer.rst:64
@@ -275,10 +275,10 @@ msgstr "Users — information about transaction participants."
 # 91c4855321864039bcadfab12456a30e
 #: ../../how-the-platform-works/components/explorer.rst:66
 msgid ""
-"Блок — информация о блоке, в котором находится транзакция и список транзакций "
+"Блок — информация о блоке, в котором находится транзакция, и список транзакций "
 "в блоке."
 msgstr ""
-"Block — information about the block in which the transaction is located and a "
+"Block — information about the block where transaction is located and about a "
 "list of transactions in the block."
 
 # ab05462065c64d8088a0e5c6f2fb9db6
