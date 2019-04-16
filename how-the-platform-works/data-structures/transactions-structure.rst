@@ -33,7 +33,9 @@
 106   :ref:`DisableContract Transaction <DisableContractTransaction>`
 110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`
 111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`
-111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`
+112   :ref:`CreatPolicy Transaction <CreatPolicyTransaction>`
+113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`
+114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`
 ===   ========================================================================================================================================================================================================
 
 .. _GenesisTransaction:
@@ -1119,25 +1121,57 @@
    height           ,       ,+      ,       ,
 
 
-.. _PolicyTransaction:
+.. _CreatPolicyTransaction:
 
-112. PolicyTransaction/
+112. CreatPolicyTransaction/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+**JSON для вызова метода sign**
 
-   type             ,+      ,+      ,+      ,Byte
-   id               ,       ,+      ,       ,Byte
-   sender           ,+      ,+      ,       ,PublicKeyAccount
-   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
-   fee              ,       ,+      ,       ,Long
-   timestamp        ,+ (opt),+      ,+      ,Long
-   proofs           ,       ,+      ,+      ,List[ByteStr]
-   version          ,       ,       ,+      ,Byte
-   targetPubKey     ,+      ,+      ,+      ,PublicKeyAccount
-   nodeName         ,+      ,+      ,+      ,String
-   opType           ,+      ,+      ,+      ,
-   height           ,       ,+      ,       ,
+.. code:: js
 
+    {
+    "type":112,
+    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+    "description": "Policy for internal nodes",
+    "timestamp": 1000000000,
+    "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
+    "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+    }
+
+.. _UpdatePolicyTransaction:
+
+113. UpdatePolicyTransaction/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**JSON для вызова метода sign**
+
+.. code:: js
+
+    {
+    "type":113,
+    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // id существующей политики, иначе ошибка "Object with policyId = <reqest id> does not exist"
+    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+    "timestamp": 1000000000,
+    "opType": "add", // или "remove" при удалении участников из политики
+    "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
+    "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+    }
+
+
+.. _PolicyDataHashTransaction:
+
+114. PolicyDataHashTransaction/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**JSON для вызова метода sign**
+
+.. code:: js
+
+    {
+    "type":114,
+    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+    "timestamp": 1000000000,
+    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
+    "hash": "ad2a814482df0dd0d2cf6321f535be720caa7b3aa1289b0575f60d7a5e109631",
+    }
