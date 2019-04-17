@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 14:07+0300\n"
+"POT-Creation-Date: 2019-04-16 17:14+0300\n"
 "PO-Revision-Date: 2019-04-16 15:54+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
-"X-Generator: Poedit 2.2.1\n"
 
 # 7b737175b9b34f98a1d0bba5703365b6
 #: ../../how-the-platform-works/data-privacy.rst:4
@@ -36,11 +35,12 @@ msgstr ""
 # 29874b1077394b38a34eb1e3549a578a
 #: ../../how-the-platform-works/data-privacy.rst:7
 msgid ""
-"Доступ к конфиденциальным данным определяется политиками (policy), которые "
-"содержат список сторон, которым разрешается чтение и запись данных."
+"Доступ к конфиденциальным данным определяется политиками (policy), "
+"которые содержат список сторон, которым разрешается чтение и запись "
+"данных."
 msgstr ""
-"The policy set containing the access lists is keeping safe the confidential "
-"data from unauthorised access."
+"The policy set containing the access lists is keeping safe the "
+"confidential data from unauthorised access."
 
 # 69c0ca73ae8e4a148d206a45030a21c1
 #: ../../how-the-platform-works/data-privacy.rst:13
@@ -52,8 +52,8 @@ msgstr "Arrangement of the exchange policies"
 msgid ""
 "Политика доступа - это сущность регулирующая отношения сторон в рамках "
 "взаимодействия с приватными данными. Стороны, которым необходимо "
-"обмениваться приватными данными, cоздают политику доступа, согласно которой "
-"впоследствии проводят обмен приватными данными."
+"обмениваться приватными данными, cоздают политику доступа, согласно "
+"которой впоследствии проводят обмен приватными данными."
 msgstr ""
 "The access policy manages the stakeholders relations during private data "
 "interactions. According with their own created policy stakeholders are "
@@ -84,30 +84,31 @@ msgstr "the list of confidential data recipients (policyRecipients);"
 msgid "список участников с правами на редактирование политики (policyOwners)."
 msgstr "the list of the policy owners with editing rights (policyOwners)."
 
-# 57337eb434214642b72563cd3079a341
+# 10ce91cffeaa4decadd01e6166fbc26d
 #: ../../how-the-platform-works/data-privacy.rst:24
 msgid ""
 "Управление политиками доступа осуществляется путем отправки в блокчейн "
 "транзакций CreatePolicyTransaction (type = 112, создание политики) и "
 "UpdatePolicyTransaction (type = 113, редактирование политики)."
 msgstr ""
-"Access policies are managed by sending CreatePolicyTransaction (type = 112, "
-"policy creation) and UpdatePolicyTransaction (type = 113, policy editing) to "
-"the blockchain."
+"Access policies are managed by sending CreatePolicyTransaction (type = "
+"112, policy creation) and UpdatePolicyTransaction (type = 113, policy "
+"editing) to the blockchain."
 
 # e288ad6b3a984460aade0daf8bd9c0ef
 #: ../../how-the-platform-works/data-privacy.rst:26
+#, fuzzy
 msgid ""
-"Для внешних приложений в :ref:`API ноды <privacy-api>` реализовано несколько "
-"запросов, возвращающих сведения по политике и данным, которые передаются в "
-"рамках данной политики: ``GET /privacy/{policy}/recipients``, ``GET /privacy/"
-"{policy}/fullinfo``, ``GET /privacy/{policy}/getHashes``, ``GET /privacy/"
-"getInfo/{hash}``."
+"Для внешних приложений в :ref:`API ноды <privacy-api>` реализовано "
+"несколько запросов, возвращающих сведения по политике и данным, которые "
+"передаются в рамках данной политике: ``GET "
+"/privacy/{policy}/recipients``, ``GET /privacy/{policy}/fullinfo``, ``GET"
+" /privacy/{policy}/getHashes``, ``GET /privacy/getInfo/{hash}``."
 msgstr ""
 "For external access and getting the information about policies there are "
-"using specified :ref:`API Node <privacy-api>` requests: ``GET /privacy/"
-"{policy}/recipients``, ``GET /privacy/{policy}/fullinfo``, ``GET /privacy/"
-"{policy}/getHashes``, ``GET /privacy/getInfo/{hash}``."
+"using specified :ref:`API Node <privacy-api>` requests: ``GET "
+"/privacy/{policy}/recipients``, ``GET /privacy/{policy}/fullinfo``, ``GET"
+" /privacy/{policy}/getHashes``, ``GET /privacy/getInfo/{hash}``."
 
 # 216c5bc4b2114a5bad41fffcebfd8076
 #: ../../how-the-platform-works/data-privacy.rst:30
@@ -117,8 +118,8 @@ msgstr "The exchange of the confidential data"
 # 34c4081f3f354735820b46262ec248cc
 #: ../../how-the-platform-works/data-privacy.rst:32
 msgid ""
-"В упрощенном варианте передача конфиденциальных данных между нодами состоит "
-"из следующих этапов:"
+"В упрощенном варианте передача конфиденциальных данных между нодами "
+"состоит из следующих этапов:"
 msgstr ""
 "In a simple way, the transfer of the confidential data between nodes "
 "consists of the following steps:"
@@ -141,13 +142,15 @@ msgstr "Calculating the hash of the received data;"
 # 58373114af93474b9773bfb24004e488
 #: ../../how-the-platform-works/data-privacy.rst:37
 msgid ""
-"Формирование, подписание и отправка в блокчейн транзакции :ref:"
-"`PolicyDataHashTransaction <transaction-structure>` (type = 114), содержащей "
-"хэш данных. Подписание производится нодой-первополучателем данных;"
+"Формирование, подписание и отправка в блокчейн транзакции "
+":ref:`PolicyDataHashTransaction <transaction-structure>` (type = 114), "
+"содержащей хэш данных. Подписание производится нодой-первополучателем "
+"данных;"
 msgstr ""
-"Creating, signing and sending to the blockchain :ref:"
-"`PolicyDataHashTransaction <transaction-structure>` (type = 114) containing "
-"the data hash. This transaction is signing by the first node-recipient;"
+"Creating, signing and sending to the blockchain "
+":ref:`PolicyDataHashTransaction <transaction-structure>` (type = 114) "
+"containing the data hash. This transaction is signing by the first node-"
+"recipient;"
 
 # 5022afd38f864a94b670660d5f4268e0
 #: ../../how-the-platform-works/data-privacy.rst:38
@@ -158,12 +161,12 @@ msgstr "Defining the participants list included in policy;"
 #: ../../how-the-platform-works/data-privacy.rst:39
 msgid ""
 "Отправка сетевого сообщения hasPrivateData для проверки наличия данных у "
-"участника (данные могут быть получены от другой ноды в рамках peer-to-peer "
-"взаимодействия);"
+"участника (данные могут быть получены от другой ноды в рамках peer-to-"
+"peer взаимодействия);"
 msgstr ""
 "Sending the hasPrivateData net message to check the having of the data "
-"belonging the participant (the data can be obtained from another node during "
-"peer-to-peer interaction);"
+"belonging the participant (the data can be obtained from another node "
+"during peer-to-peer interaction);"
 
 # d46bdca14a7842aeb099187c492da24c
 #: ../../how-the-platform-works/data-privacy.rst:40
@@ -176,25 +179,26 @@ msgid ""
 "Проверка на соответствие хэша, созданного на полученных данных и хэша, "
 "полученного из блокчейн-транзакции;"
 msgstr ""
-"Equivalence checking of the hash created on the base of the received data "
-"and the hash got from the blockchain transaction;"
+"Equivalence checking of the hash created on the base of the received data"
+" and the hash got from the blockchain transaction;"
 
 # b021dd9fea5a4f32aed7b1359493ce56
 #: ../../how-the-platform-works/data-privacy.rst:42
 msgid ""
-"Если хэши совпадают, то изменения статуса данных в Private Store на ACCEPTED."
+"Если хэши совпадают, то изменения статуса данных в Private Store на "
+"ACCEPTED."
 msgstr ""
-"Changing the data status from the node Private Store on the ACCEPTED if the "
-"hashes will match."
+"Changing the data status from the node Private Store on the ACCEPTED if "
+"the hashes will match."
 
 # 850b8ab8d10d40a69370abbdf8ab48bd
 #: ../../how-the-platform-works/data-privacy.rst:44
 msgid ""
-"Рассылка данных сразу нескольким участникам предполагает последовательную "
-"установку соединения и пересылку данных каждому следующему участнику."
+"Рассылка данных сразу нескольким участникам предполагает последовательную"
+" установку соединения и пересылку данных каждому следующему участнику."
 msgstr ""
-"Sending the data to several participants simultaneously requires a serial "
-"connection and sending data to each next participant."
+"Sending the data to several participants simultaneously requires a serial"
+" connection and sending data to each next participant."
 
 # ababf69a10314f00934c9030742f866f
 #: ../../how-the-platform-works/data-privacy.rst:46
@@ -204,11 +208,11 @@ msgstr "**The process diagram**"
 # 7728e92eed33411f9a11e591ddb6194b
 #: ../../how-the-platform-works/data-privacy.rst:51
 msgid ""
-"Отправка данных на ноду выполняется через API ноды через запрос ``POST /"
-"privacy/sendData``, в который транслируются параметры:"
+"Отправка данных на ноду выполняется через API ноды через запрос ``POST "
+"/privacy/sendData``, в который транслируются параметры:"
 msgstr ""
-"The ``POST /privacy/sendData`` API request of the node is using for sending "
-"data to this node with the following parameters:"
+"The ``POST /privacy/sendData`` API request of the node is using for "
+"sending data to this node with the following parameters:"
 
 # 267e75f4e9c049f1b75654f289ad9f96
 #: ../../how-the-platform-works/data-privacy.rst:53
@@ -237,18 +241,19 @@ msgstr "Data routing"
 
 # 960c3e1eb92d4c0f8313f673d8cb9953
 #: ../../how-the-platform-works/data-privacy.rst:61
+#, fuzzy
 msgid ""
-"Для обмена конфиденциальными данными участники сетевого взаимодействия "
-"(ноды) должны пройти обязательную регистрацию. Регистрация ноды выполняется "
-"отправкой специальной транзакции :ref:`RegistrationNodeTransaction "
-"<transaction-structure>` (type = 111), доступной только для пользователя с "
-"ролью \"connection-manager\"."
+"Для обмена конфиденциальными данными участники сетевого взамиодействия "
+"(ноды) должны пройти обязательную регистрацию. Регистрация ноды "
+"выполняется отправкой специальной транзакции "
+":ref:`RegistrationNodeTransaction <transaction-structure>` (type = 111), "
+"доступной только для пользователя с ролью \"connection-manager\"."
 msgstr ""
-"All network interaction participants (nodes) must be registered in order to "
-"exchange confidential data. The Node registration is performed by sending a "
-"special transaction :ref:`Registration Name Transaction <transaction-"
-"structure>` (type = 111), available only for the user with the role "
-"\"connection-manager\"."
+"All network interaction participants (nodes) must be registered in order "
+"to exchange confidential data. The Node registration is performed by "
+"sending a special transaction :ref:`Registration Name Transaction "
+"<transaction-structure>` (type = 111), available only for the user with "
+"the role \"connection-manager\"."
 
 # 5d079d57623c4d72a2db184ccc527ebf
 #: ../../how-the-platform-works/data-privacy.rst:64
@@ -268,23 +273,25 @@ msgstr "a name or a description of the node."
 # fa43163beff74f6f817390da8f8e2b6f
 #: ../../how-the-platform-works/data-privacy.rst:69
 msgid ""
-"На основе указанных параметров в стейте ноды формируется таблица разрешенных "
-"участников сетевого обмена. Взаимодействие между нодами разрешается, если в "
-"запросе ноды (:ref:`handshake message <network-message>`) присутствует "
-"подпись на приватном ключе, парном публичному ключу, который находится в "
-"стейте ноды. Если подпись запроса верна, то нода формирует в своей памяти "
-"таблицу, содержащую соотвествие между блокчейн-адресом участника "
-"отправившего handshake запрос и его hostname/ip-адресом. После успешного "
-"подключения нода пользователя выполняет синхронизацию с сетью, а так же "
-"синхронизацию таблицы адресов участников."
+"На основе указанных параметров в стейте ноды формируется таблица "
+"разрешенных участников сетевого обмена. Взаимодействие между нодами "
+"разрешается, если в запросе ноды (:ref:`handshake message <network-"
+"message>`) присутствует подпись на приватном ключе, парном публичному "
+"ключу, который находится в стейте ноды. Если подпись запроса верна, то "
+"нода формирует в своей памяти таблицу, содержащую соотвествие между "
+"блокчейн-адресом участника отправившего handshake запрос и его "
+"hostname/ip-адресом. После успешного подключения нода пользователя "
+"выполняет синхронизацию с сетью, а так же синхронизацию таблицы адресов "
+"участников."
 msgstr ""
-"A table containing allowed network exchange participants and based on the "
-"transaction parameters is formed in the node state. The Interaction between "
-"the hosts is allowed, if inside the node request (:ref:`handshake message "
-"<network-message>`) there is a signature of the private key which is paired "
-"to the public key located in the node state. If the signature of the request "
-"is correct, the node forms a table containing the compliance between the "
-"blockchain address of the participant who sent the handshake request and its "
-"hostname/ip address. After a successful connection the user node "
-"synchronizes with the network and performs the synchronization of the table "
-"of addresses of the participants."
+"A table containing allowed network exchange participants and based on the"
+" transaction parameters is formed in the node state. The Interaction "
+"between the hosts is allowed, if inside the node request (:ref:`handshake"
+" message <network-message>`) there is a signature of the private key "
+"which is paired to the public key located in the node state. If the "
+"signature of the request is correct, the node forms a table containing "
+"the compliance between the blockchain address of the participant who sent"
+" the handshake request and its hostname/ip address. After a successful "
+"connection the user node synchronizes with the network and performs the "
+"synchronization of the table of addresses of the participants."
+
