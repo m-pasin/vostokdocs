@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-03-12 23:02+0300\n"
+"PO-Revision-Date: 2019-04-17 17:38+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # f42cf651c21847a89b7cb2fb29aacba7
 #: ../../how-the-platform-works/data-structures/network-messages.rst:4
@@ -26,8 +27,8 @@ msgstr "Network messages"
 # 39a7c3ba13614c38980238b27fdd2a82
 #: ../../how-the-platform-works/data-structures/network-messages.rst:6
 msgid ""
-"В этом разделе приведена структура сетевых сообщений в блокчейн-платформе"
-" Восток."
+"В этом разделе приведена структура сетевых сообщений в блокчейн-"
+"платформе Восток."
 msgstr ""
 "This section describes the structure of network messages in the Vostok "
 "blockchain platform."
@@ -466,12 +467,12 @@ msgstr "N"
 # 0f496a2bc604452483d0b4d2b170fef3
 #: ../../how-the-platform-works/data-structures/network-messages.rst:25
 msgid ""
-"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 bytes"
-" of_FastHash_of Payload bytes. FastHash is hash function "
+"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 "
+"bytes of_FastHash_of Payload bytes. FastHash is hash function "
 "Blake2b256(data)."
 msgstr ""
-"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 bytes"
-" of_FastHash_of Payload bytes. FastHash is hash function "
+"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 "
+"bytes of_FastHash_of Payload bytes. FastHash is hash function "
 "Blake2b256(data)."
 
 # 7feb64a21a35488595b97ae45fbcf20a
@@ -972,12 +973,11 @@ msgstr "Checkpoint #N signature"
 
 # 1cb49de5020449ec9b8865954d669c79
 #~ msgid ""
-#~ "Handshake сообщение предназначена для "
-#~ "первичного обмена данными между двумя "
-#~ "нодами."
+#~ "Handshake сообщение предназначена для первичного обмена данными между "
+#~ "двумя нодами."
 #~ msgstr ""
-#~ "Handshake message is intended for "
-#~ "primary data exchange between two nodes."
+#~ "Handshake message is intended for primary data exchange between two "
+#~ "nodes."
 
 # 905874db3e814a46ba910ab9aa0ff289
 #~ msgid "11"
@@ -986,4 +986,3 @@ msgstr "Checkpoint #N signature"
 # 17dc7a4cfd5f4d4b911608e719d03591
 #~ msgid "Timestamp"
 #~ msgstr "Timestamp"
-

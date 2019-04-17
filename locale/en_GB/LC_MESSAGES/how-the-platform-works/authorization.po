@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-03-24 10:11+0300\n"
+"PO-Revision-Date: 2019-04-17 17:39+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 2e613e6307cc4b15a404258ee1b594fb
 #: ../../how-the-platform-works/authorization.rst:4
@@ -26,8 +27,8 @@ msgstr "Authorization of participants"
 # 7f8064fe542a4284b67cfce0009aecba
 #: ../../how-the-platform-works/authorization.rst:5
 msgid ""
-"В блокчейн-платформе реализован механизм ограничения действий участников "
-"на основании ролевой модели."
+"В блокчейн-платформе реализован механизм ограничения действий участников на "
+"основании ролевой модели."
 msgstr ""
 "The blockchain platform implements a mechanism limiting actions of "
 "participants based on the role model."
@@ -35,11 +36,11 @@ msgstr ""
 # 45d3b615025a40c98554b3851df5d249
 #: ../../how-the-platform-works/authorization.rst:7
 msgid ""
-"Механизм разрешений позволяет владельцу платформы обезопасить участников "
-"от угроз:"
+"Механизм разрешений позволяет владельцу платформы обезопасить участников от "
+"угроз:"
 msgstr ""
-"The permission mechanism allows the platform owner to protect "
-"participants from threats, such as:"
+"The permission mechanism allows the platform owner to protect participants "
+"from threats, such as:"
 
 # b7faa7ecdb6748f99678496f8f3cc23f
 #: ../../how-the-platform-works/authorization.rst:9
@@ -69,11 +70,10 @@ msgstr "other illegal actions of intruders."
 # c253ff322c7f4164aa66a12a928e8aec
 #: ../../how-the-platform-works/authorization.rst:15
 msgid ""
-"Порядок выдачи и отзыва разрешений приведен в разделе :ref:`role-"
-"management`."
+"Порядок выдачи и отзыва разрешений приведен в разделе :ref:`role-management`."
 msgstr ""
-"The procedure for issuing and revoking permissions is given in module: "
-"ref:`role-management`."
+"The procedure for issuing and revoking permissions is given in module: ref:"
+"`role-management`."
 
 # 19227ed05d7d4bc2b2e76894a1062dfd
 #: ../../how-the-platform-works/authorization.rst:18
@@ -180,16 +180,16 @@ msgstr "banned"
 #, fuzzy
 msgid "Запрещено отправлять какие-либо транзакции в блокчейн."
 msgstr ""
-"It is forbidden to send any transactions to the blockchain. A group of "
-"all participants with this role forms a blacklist"
+"It is forbidden to send any transactions to the blockchain. A group of all "
+"participants with this role forms a blacklist"
 
 # 6ec6b687ab574c51843e11fa4e7ae8a7
 #: ../../how-the-platform-works/authorization.rst
 #, fuzzy
 msgid "Группа всех участников с данной ролью образует blacklist"
 msgstr ""
-"It is forbidden to send any transactions to the blockchain. A group of "
-"all participants with this role forms a blacklist"
+"It is forbidden to send any transactions to the blockchain. A group of all "
+"participants with this role forms a blacklist"
 
 # 8f9d812b025941f3a925a17718dc6a3a
 #: ../../how-the-platform-works/authorization.rst:37
@@ -199,8 +199,8 @@ msgstr "Permission model"
 # c0ba8431be7c453ca44cefca8cfe6bc1
 #: ../../how-the-platform-works/authorization.rst:39
 msgid ""
-"Модель разрешений описывает механизм применения различных типов "
-"разрешений при валидации операций в блокчейн-сети."
+"Модель разрешений описывает механизм применения различных типов разрешений "
+"при валидации операций в блокчейн-сети."
 msgstr ""
 "Permission model describes a mechanism for applying different types of "
 "permissions when validating operations in a blockchain."
@@ -382,8 +382,8 @@ msgstr "Due Timestamp Bytes"
 # cc1c82ae3f0946859e117c98ef2a8553
 #: ../../how-the-platform-works/authorization.rst:75
 msgid ""
-"Последовательность действий при обновлении списка разрешений приведена на"
-" схеме ниже."
+"Последовательность действий при обновлении списка разрешений приведена на "
+"схеме ниже."
 msgstr ""
 "The following diagram shows the sequence of actions when updating a "
 "permission list."
@@ -416,4 +416,3 @@ msgid ""
 "Такая роль не активна (в случае добавления), либо активна (в случае "
 "удаления)."
 msgstr "This role is not active (if added) or active (if removed)."
-

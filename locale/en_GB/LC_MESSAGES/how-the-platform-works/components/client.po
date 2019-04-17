@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-03-13 00:09+0300\n"
+"PO-Revision-Date: 2019-04-17 17:34+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,8 +38,7 @@ msgstr ""
 msgid ""
 "**Клиент включает в себя разделы для использования всех возможностей "
 "блокчейна:**"
-msgstr ""
-"**The client includes sections for use of all blockchain features:**"
+msgstr "**The client includes sections for use of all blockchain features:**"
 
 # fc3275bea19b42c6859c71c1fca8673e
 #: ../../how-the-platform-works/components/client.rst:12
@@ -66,8 +65,7 @@ msgid ""
 "удобства администрирования."
 msgstr ""
 "Module \"Settings\" allows managing permissions for user actions in the "
-"blockchain and assigning unique names to accounts for easy "
-"administration."
+"blockchain and assigning unique names to accounts for easy administration."
 
 # 4ff423e665a14d3cad94f4b60dc9272c
 #: ../../how-the-platform-works/components/client.rst:15
@@ -75,8 +73,8 @@ msgid ""
 "Раздел «Запись данных» — позволит отправлять из интерфейса транзакции с "
 "данными и файлы."
 msgstr ""
-"Module \"Enter Data\" allows sending data transactions and files from "
-"the interface."
+"Module \"Enter Data\" allows sending data transactions and files from the "
+"interface."
 
 # 785435c47d3549c7a8e696e82d115bc2
 #: ../../how-the-platform-works/components/client.rst:16
@@ -87,9 +85,9 @@ msgid ""
 "Тьюринг-полных контрактов."
 msgstr ""
 "Module \"Contracts\" allows viewing and editing Turing-incomplete "
-"contracts, debugging and publishing them. The component will also "
-"provide convenient tools for operations with Docker repository for Turing-"
-"complete contracts."
+"contracts, debugging and publishing them. The component will also provide "
+"convenient tools for operations with Docker repository for Turing-complete "
+"contracts."
 
 # 4c77649007f645f78657993bad46ddfd
 #: ../../how-the-platform-works/components/client.rst:17
@@ -99,8 +97,8 @@ msgid ""
 "потенциальные угрозы целостности цепочки."
 msgstr ""
 "Module \"Monitoring\" allows real-time tracking of the following blockchain "
-"workload: the volume of transactions, their speed, and "
-"potential threats to chain consistency."
+"workload: the volume of transactions, their speed, and potential threats to "
+"chain consistency."
 
 # 7c2fc23ca3cc4b78a5ff46f4e91c1277
 #: ../../how-the-platform-works/components/client.rst:18

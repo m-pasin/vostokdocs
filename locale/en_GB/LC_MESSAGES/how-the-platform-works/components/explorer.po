@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-03-24 16:33+0300\n"
+"PO-Revision-Date: 2019-04-17 17:12+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -31,9 +31,10 @@ msgid ""
 " транзакций для поиска. **Транзакции со смарт-контрактами появятся в "
 "релизе 0.8**"
 msgstr ""
-"Contains information about blockchain transactions. Use switches and "
-"search box to specify transaction fields to search information. "
-"**Transactions with smart contracts will appear in release 0.8**"
+"The section contains information about blockchain transactions. Use "
+"switches and search box to specify transaction fields to search "
+"information. **Transactions with smart contracts will appear in release "
+"0.8**"
 
 # 84edc6dfceb04a14967dd8ac23c302fd
 #: ../../how-the-platform-works/components/explorer.rst:9
@@ -682,13 +683,12 @@ msgstr ""
 # a67eaf52a4354008ae2f277568351a49
 #: ../../how-the-platform-works/components/explorer.rst:135
 msgid "Роль"
-msgstr ""
+msgstr "Role"
 
 # bf453e168806416d9a6dd75fb121609c
 #: ../../how-the-platform-works/components/explorer.rst:135
-#, fuzzy
 msgid "Роль в транзакции"
-msgstr "Transaction type"
+msgstr "Role in the transaction"
 
 # 168dec4e173f4a25878ba8f05cc71c80
 #: ../../how-the-platform-works/components/explorer.rst:139
@@ -699,67 +699,66 @@ msgstr "Recipient"
 # 53f07eacdaae488189032e62f3f2156c
 #: ../../how-the-platform-works/components/explorer.rst:141
 msgid "Эмитент"
-msgstr ""
+msgstr "Issuer"
 
 # f6b5584551774aa88cbb9b00760eea4e
 #: ../../how-the-platform-works/components/explorer.rst:144
 msgid "Вывод из обращения"
-msgstr ""
+msgstr "Out of circulation"
 
 # 7788f226f7274da3bc13a7ac651ef32e
 #: ../../how-the-platform-works/components/explorer.rst:144
 msgid "Инициатор"
-msgstr ""
+msgstr "Initiator"
 
 # b485a7e9eb7447878926b01d506a5471
 # ad61d03efed144ba99e156bcdcfb6683
 #: ../../how-the-platform-works/components/explorer.rst:151
-#, fuzzy
 msgid "Псевдонимы"
-msgstr "Alias"
+msgstr "Aliases"
 
 # 61070420ea844414a57352a3b910c0a1
 #: ../../how-the-platform-works/components/explorer.rst:151
 msgid "Псевдонимы участников транзакции"
-msgstr ""
+msgstr "Aliases of transaction participants"
 
 # 9d3b0ba76ce34ff98ea1f1b69860505f
 # 25ea256b09ab4cedb7d8f1fbb3b2af91
 #: ../../how-the-platform-works/components/explorer.rst:154
 msgid "Адрес"
-msgstr ""
+msgstr "Address"
 
 # f547deaacbf642e6aeab4ba8ee682c38
 #: ../../how-the-platform-works/components/explorer.rst:154
-#, fuzzy
 msgid "Адреса участников транзакции"
-msgstr "For all transaction types"
+msgstr "Addresses of transaction participants"
 
 # b5eaee76d68148808cebda3bfb9ba6be
 #: ../../how-the-platform-works/components/explorer.rst:156
 msgid "Баланс"
-msgstr ""
+msgstr "Balance"
 
 # 194942331ef84dcab1d66b78285e313f
 #: ../../how-the-platform-works/components/explorer.rst:156
+#, fuzzy
 msgid "Балансы участников транзакции на текуший момент"
-msgstr ""
+msgstr "Current balances of participants of the transaction"
 
 # 2bdc79a2a6da4694931d0e2df60bc9d2
 #: ../../how-the-platform-works/components/explorer.rst:159
+#, fuzzy
 msgid "Разрешения участников транзакции на текуший момент"
-msgstr ""
+msgstr "Current permissions of participants of the transaction"
 
 # 8488e7efb8a74e0486270f2f892bf559
 #: ../../how-the-platform-works/components/explorer.rst:159
-#, fuzzy
 msgid "Названия разрешений"
-msgstr "Manage permissions"
+msgstr "Permission names"
 
 # f82a452c8d7f416fa5157d597436f0fe
 #: ../../how-the-platform-works/components/explorer.rst:165
 msgid "Вкладка «Блок»"
-msgstr ""
+msgstr "\"Block\" tab"
 
 # cf20b8523a7143fa8be9f96d14201c03
 #: ../../how-the-platform-works/components/explorer.rst:167
@@ -768,7 +767,6 @@ msgstr "Identical for all transaction types"
 
 # 14b23bbb74d54daeb781b07afe44bc65
 #: ../../how-the-platform-works/components/explorer.rst:169
-#, fuzzy
 msgid "Описание полей на вкладке \"Блок\" для всех типов транзакций"
 msgstr ""
 "Description of field values on the Information tab for different "
