@@ -781,7 +781,7 @@
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10
+   :widths: 10, 10, 10, 10, 10
 
    type             ,+      ,+      ,Byte
    id               ,+      ,       ,Byte
@@ -1083,7 +1083,7 @@
 .. _GenesisRegisterNodeTransaction:
 
 110. GenesisRegisterNodeTransaction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :header: "Field","Broadcasted JSON","Blockchain state","Type"
