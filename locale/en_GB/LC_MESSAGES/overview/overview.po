@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-17 17:39+0300\n"
+"PO-Revision-Date: 2019-04-18 10:13+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -26,7 +26,6 @@ msgstr "Overview of features"
 
 # 6daa2a0f5b194265b17d537e9ed69756
 #: ../../overview/overview.rst:4
-#, fuzzy
 msgid ""
 "\"Блокчейн-платформа Vostok — это универсальное решение для масштабируемой "
 "цифровой инфраструктуры, сочетающее в себе свойства публичных и приватных "
@@ -80,7 +79,6 @@ msgstr "High throughput;"
 
 # f9bbebe4c67b4a96b89348e569654950
 #: ../../overview/overview.rst:18
-#, fuzzy
 msgid ""
 "Поддерживаются два вида смарт-контрактов, Тьюринг-неполные на RIDE и Тьюринг-"
 "полные на Docker;"
@@ -150,7 +148,6 @@ msgstr "The main network"
 
 # 140c5b922ae24d06bb0f69a2d799bcbc
 #: ../../overview/overview.rst:35
-#, fuzzy
 msgid ""
 "Основная сеть поддерживается консорциумом крупных компаний из различных "
 "областей: банки, промышленность, девелопмент, логистика т.д. Компании, "

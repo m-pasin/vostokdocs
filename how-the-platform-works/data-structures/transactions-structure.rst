@@ -1123,7 +1123,7 @@
 
 .. _CreatPolicyTransaction:
 
-112. CreatPolicyTransaction/
+112. CreatPolicyTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **JSON для вызова метода sign**
@@ -1141,7 +1141,7 @@
 
 .. _UpdatePolicyTransaction:
 
-113. UpdatePolicyTransaction/
+113. UpdatePolicyTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **JSON для вызова метода sign**
@@ -1161,7 +1161,7 @@
 
 .. _PolicyDataHashTransaction:
 
-114. PolicyDataHashTransaction/
+114. PolicyDataHashTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **JSON для вызова метода sign**

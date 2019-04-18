@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-03-24 10:31+0300\n"
+"PO-Revision-Date: 2019-04-18 11:13+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # fda6fb8c24774908a81d6214864f24eb
 #: ../../how-to-use/rest-api-node/address.rst:2
@@ -29,8 +30,8 @@ msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
-"The rules for generating queries to the node are given in module :ref"
-":'rest-api-node`."
+"The rules for generating queries to the node are given in module :ref:'rest-"
+"api-node`."
 
 # f943dbd205ca463db38b2051bf8a5b6b
 #: ../../how-to-use/rest-api-node/address.rst:7
@@ -40,8 +41,8 @@ msgstr "GET/addresses"
 # f183296f10ed44cf9ec769916f314bda
 #: ../../how-to-use/rest-api-node/address.rst:9
 msgid ""
-"Получение всех адресов участников, ключевые пары которых хранятся в "
-"keystore ноды."
+"Получение всех адресов участников, ключевые пары которых хранятся в keystore "
+"ноды."
 msgstr ""
 "Get all addresses of participants whose key pairs are stored in the node "
 "keystore."
@@ -85,8 +86,8 @@ msgstr "GET/addresses/seq/{from}/{to}"
 # 03f27d3b64a4495b9de0130024dbe81d
 #: ../../how-to-use/rest-api-node/address.rst:23
 msgid ""
-"Получение всех адресов участников, ключевые пары которых хранятся в "
-"keystore ноды в заданном диапазоне."
+"Получение всех адресов участников, ключевые пары которых хранятся в keystore "
+"ноды в заданном диапазоне."
 msgstr ""
 "Gets all addresses of participants whose key pairs are stored in node "
 "keystore in the specified range."
@@ -140,8 +141,8 @@ msgid ""
 "значению {confirmations}. Возвращается общий баланс участника, включая "
 "средства переданные участнику за лизинг."
 msgstr ""
-"Get balance for address {address} after number of confirmations > = value"
-" {confirmations}. Returns total balance of participant, including assets "
+"Get balance for address {address} after number of confirmations > = value "
+"{confirmations}. Returns total balance of participant, including assets "
 "transferred to participant for leasing."
 
 # 5a5eca4a5f8d4983b2001da176798074
@@ -174,18 +175,17 @@ msgid ""
 "Available — общий баланс участника, за исключением средств переданных в "
 "лизинг"
 msgstr ""
-"Available - total balance of participant, except for assets transferred "
-"for leasing"
+"Available - total balance of participant, except for assets transferred for "
+"leasing"
 
 # e7cbdb08317444d0aa01de11ad9b62f8
 #: ../../how-to-use/rest-api-node/address.rst:110
 msgid ""
-"Effective — общий баланс участника, включая средства переданные участнику"
-" за лизинг (Available + средства переданные Вам в лизинг)"
+"Effective — общий баланс участника, включая средства переданные участнику за "
+"лизинг (Available + средства переданные Вам в лизинг)"
 msgstr ""
-"Effective — total balance of participant, including assets transferred to"
-" participant for leasing (Available + assets transferred to you for "
-"leasing)"
+"Effective — total balance of participant, including assets transferred to "
+"participant for leasing (Available + assets transferred to you for leasing)"
 
 # c09e1b7d26cd44768da50177449a1e86
 #: ../../how-to-use/rest-api-node/address.rst:111
@@ -193,8 +193,8 @@ msgid ""
 "Generating — минимальный баланс участинка, включая средства переденные "
 "участнику за лизинг, за последние 1000 блоков (используется для майнинга)"
 msgstr ""
-"Generating - minimum balance of participant, including assets transferred"
-" to participant for leasing, for the last 1000 blocks (used for mining)"
+"Generating - minimum balance of participant, including assets transferred to "
+"participant for leasing, for the last 1000 blocks (used for mining)"
 
 # febcf9a56ef14aeb9be9df9d0549f273
 #: ../../how-to-use/rest-api-node/address.rst:114
@@ -239,13 +239,13 @@ msgstr "POST/addresses/sign/{address}"
 # 0870ba262d924a5d97697dac2efd8d31
 #: ../../how-to-use/rest-api-node/address.rst:143
 msgid ""
-"Возвращает закодированное в формарт Base58 сообщение, подписанное "
-"приватным ключом адресата {address}, сохраненным в keystore ноды. "
-"Сообщение сначала подписывается, после этого выполняется преобразование."
+"Возвращает закодированное в формарт Base58 сообщение, подписанное приватным "
+"ключом адресата {address}, сохраненным в keystore ноды. Сообщение сначала "
+"подписывается, после этого выполняется преобразование."
 msgstr ""
-"Returns the message encoded in BASE58 format signed by address private "
-"key {address}, stored in node keystore. The message is first signed and "
-"then converted."
+"Returns the message encoded in BASE58 format signed by address private key "
+"{address}, stored in node keystore. The message is first signed and then "
+"converted."
 
 # c7eff490f5174fe4ab792c82f13401f3
 #: ../../how-to-use/rest-api-node/address.rst:165
@@ -258,8 +258,8 @@ msgid ""
 "Проверяет подпись сообщения, выполненную адресатом {address}, в т.ч. "
 "созданную через метод POST /addresses/sign/{address}."
 msgstr ""
-"Validates signature of a message executed by address {address}, including"
-" the one created through POST method/addresses/sign/{address}."
+"Validates signature of a message executed by address {address}, including "
+"the one created through POST method/addresses/sign/{address}."
 
 # 0447eae8d1b2429e97deec4cc1b7159d
 #: ../../how-to-use/rest-api-node/address.rst:190
@@ -272,8 +272,8 @@ msgid ""
 "Возвращает сообщение, подписанное приватным ключом адресата {address}, "
 "сохраненным в keystore ноды."
 msgstr ""
-"Returns a message signed by address private key {address} stored in the "
-"node keystore."
+"Returns a message signed by address private key {address} stored in the node "
+"keystore."
 
 # 418cb8b57d694660a46c62f8420bb368
 #: ../../how-to-use/rest-api-node/address.rst:214
@@ -286,8 +286,8 @@ msgid ""
 "Проверяет подпись сообщения, выполненную адресатом {address}, в т.ч. "
 "созданную через метод POST /addresses/signText/{address}."
 msgstr ""
-"Validates signature of a message executed by address {address}, including"
-" the one created through the POSTmethod /addresses/signtext/{address}."
+"Validates signature of a message executed by address {address}, including "
+"the one created through the POSTmethod /addresses/signtext/{address}."
 
 # 189eb27bae594c389f72022b3115f009
 #: ../../how-to-use/rest-api-node/address.rst:239
@@ -297,11 +297,11 @@ msgstr "GET /addresses/validate/{addressOrAlias}"
 # 5c0153563a8f4567ad53ff06e255e6b0
 #: ../../how-to-use/rest-api-node/address.rst:240
 msgid ""
-"Проверяет корректность заданого адресата или его псевдонима "
-"{addressOrAlias} в блокчейн-сети работающей ноды."
+"Проверяет корректность заданого адресата или его псевдонима {addressOrAlias} "
+"в блокчейн-сети работающей ноды."
 msgstr ""
-"Validates correctness of specified address or its alias {addressOrAlias} "
-"in a network blockchain of operating node."
+"Validates correctness of specified address or its alias {addressOrAlias} in "
+"a network blockchain of operating node."
 
 # eefca101e73843d987cea77a646320f1
 #: ../../how-to-use/rest-api-node/address.rst:252
@@ -336,8 +336,7 @@ msgstr "GET/addresses/data/{address}/{key}"
 # 988b966341bb4dd09505e4d5a07bdcee
 #: ../../how-to-use/rest-api-node/address.rst:316
 msgid ""
-"Возвращает данные, записанные на аккаунт адресата {address} по ключу "
-"{key}."
+"Возвращает данные, записанные на аккаунт адресата {address} по ключу {key}."
 msgstr "Returns data recorded to address account {address} by key {key}."
 
 # 5639d14ecd424e139faa9e961f312ffd
@@ -346,11 +345,8 @@ msgstr "Returns data recorded to address account {address} by key {key}."
 
 # da5b563b1f12454c836ac87c728f4d45
 #~ msgid ""
-#~ "Получение баланса для адреса {address} "
-#~ "после количества подтверждений >= значению "
-#~ "{confirmations}."
+#~ "Получение баланса для адреса {address} после количества подтверждений >= "
+#~ "значению {confirmations}."
 #~ msgstr ""
-#~ "Get balance for address {address} after"
-#~ " number of confirmations > = value"
-#~ " {confirmations}."
-
+#~ "Get balance for address {address} after number of confirmations > = value "
+#~ "{confirmations}."
