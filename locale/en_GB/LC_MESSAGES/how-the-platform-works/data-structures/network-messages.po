@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-17 17:38+0300\n"
+"PO-Revision-Date: 2019-04-18 14:12+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -488,25 +488,27 @@ msgid ""
 "неавторизованный. Авторизованный handshake содержит блокчейн-адрес "
 "владельца ноды и подпись."
 msgstr ""
+"Handshake message is intended for primary data exchange between two "
+"nodes. There are two types of handshake messages - authorized and "
+"unauthorized. An authorized handshake contains the node owner's "
+"blockchain address and signature."
 
 # 9150afbac0db400bb62e44f96dd4537f
 #: ../../how-the-platform-works/data-structures/network-messages.rst:36
 msgid "Неавторизованный Handshake"
-msgstr ""
+msgstr "Unauthorized Handshake"
 
 # 8bebc6225ce14a5db808631bdcaedffa
 # c9461ea9f8a040379bf5b02dfac18043
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "HandshakeType"
-msgstr "Handshake message"
+msgstr "HandshakeType"
 
 # 51973777008f4410a3cdbbec6e020942
 # 9ca0594c1d0a4d71b48d71371d07efba
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "byte"
-msgstr "Byte"
+msgstr "byte"
 
 # 8c10917aac7f486496d3e98ed34554d0
 # c2a51b99d5374b1b9a8b27367f5e4679
@@ -551,9 +553,8 @@ msgstr "7"
 # bd9afaeb0b1d4c009acfebb78f41da24
 # 1a7d24a213534c4fbbbd7417841b2167
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "Consensus name lenght (P)"
-msgstr "Node name length (M)"
+msgstr "Consensus name lenght (P)"
 
 # da761cd7e34e44c28696b9cae5cc5e51
 # 97a2dac0d79848b1b47847fc35238a2a
@@ -570,15 +571,14 @@ msgstr "8"
 # 29563c5b827f4569b0365cb5a2102c9d
 # f9b49c2de9644e0a9b073816aa73bf42
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "Consensus name lenght (UTF-8 encoded bytes)"
-msgstr "Node name (UTF-8 encoded bytes)"
+msgstr "Consensus name lenght (UTF-8 encoded bytes)"
 
 # cd939b39492d48aa91e9e494ffd3a897
 # 343b91458a6349e5939353608dc4c9f4
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "P"
-msgstr ""
+msgstr "P"
 
 # dc51455be36a47f5af82a7590fe389a1
 # 4611485f4567436bb5faa1c5f86da57c
@@ -613,9 +613,8 @@ msgstr "M"
 # c40ceae24834443bb3eb086ecc4e1ef9
 # 2dfa09cdd716414f9695a170fa2d21ba
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "12"
-msgstr "2"
+msgstr "12"
 
 # 9a5ad1a771b84056889d9906456d830a
 # e1231955bf4046348df7939876ce9e46
@@ -634,9 +633,8 @@ msgstr "Long"
 # ee09972248014fec8b41b197e3552cb7
 # a016bf044d104374ae73a2334896744f
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "13"
-msgstr "3"
+msgstr "13"
 
 # 0ae2149ea03d4336aaca4309b6492731
 # 46abd9f6dfa544319f9b2a7a5e63bae0
@@ -647,9 +645,8 @@ msgstr "Declared address length (K) or 0 if no declared address was set"
 # e02b941047934dd188909e3eef5bf1b0
 # 3885482771a440c7acf2bf5b1fd86a55
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "14"
-msgstr "4"
+msgstr "14"
 
 # f57acfa5dd7c44759a7bbed7ccf5e0bb
 # d4c5153fa27040e98ba484b4d4c9f7e0
@@ -666,51 +663,44 @@ msgstr "K"
 # d3c6d0413ee143469ee4e8323656d072
 # d149e41183b8498487b5015bfd0c6db4
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "15"
-msgstr "5"
+msgstr "15"
 
 # 7b962e8e9d0f4b989fa9b5c051523c43
 # 64a718060d894273962f6408a5941d92
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "Peer port"
-msgstr "Peer #N port"
+msgstr "Peer port"
 
 # 5d33f2a29aa445a8885e9d045cc4fece
 #: ../../how-the-platform-works/data-structures/network-messages.rst:60
 msgid "Авторизованный Handshake"
-msgstr ""
+msgstr "Authorized Handshake"
 
 # 7f24120f8a1e47b3a21991e659c0710c
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "16"
-msgstr "6"
+msgstr "16"
 
 # 4f7e93205f904a7c81a4951994199ac5
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "Node owner address"
-msgstr "Peer #N IP address"
+msgstr "Node owner address"
 
 # 792e6cf3bfd54babaf0e7ffe4291c0c1
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "26"
-msgstr "6"
+msgstr "26"
 
 # 9259f094315b455f98215b6e1c561c2c
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "17"
-msgstr "7"
+msgstr "17"
 
 # 21bcd21c563c4bd881de7b85601899ee
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-#, fuzzy
 msgid "Signature"
-msgstr "Block #N signature"
+msgstr "Signature"
 
 # 679ed966827249558bcb6439bc2d9d03
 # 77816ff2241e4385b0d20599b42adbcb

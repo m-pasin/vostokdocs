@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-17 17:39+0300\n"
+"PO-Revision-Date: 2019-04-18 13:54+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -102,7 +102,6 @@ msgstr "permissioner"
 
 # 784cb6499eb74982a2cffb319914ca07
 #: ../../how-the-platform-works/authorization.rst:25
-#, fuzzy
 msgid "Формирование транзакций для изменения списка разрешений"
 msgstr "Add transactions to modify the permission list"
 
@@ -113,7 +112,6 @@ msgstr "blacklister"
 
 # cc31c0fe1d024110b065d9b4ccc74ebe
 #: ../../how-the-platform-works/authorization.rst:26
-#, fuzzy
 msgid "Формирование транзакций для изменения black list"
 msgstr "Add transactions to modify the black list"
 
@@ -134,7 +132,6 @@ msgstr "issuer"
 
 # c4cbe24e4eb3455d9568f23744478590
 #: ../../how-the-platform-works/authorization.rst:28
-#, fuzzy
 msgid "Формирование транзакций по выпуску, перевыпуску и сжиганию токенов"
 msgstr "Add transactions for issuing, reissuing, and burning tokens"
 
@@ -145,9 +142,8 @@ msgstr "dex"
 
 # 49bb188e87ea4ee5909e6834672562dd
 #: ../../how-the-platform-works/authorization.rst:29
-#, fuzzy
 msgid "Формирование exchange транзакции (deprecated)"
-msgstr "Add exchange transaction (deprecated)"
+msgstr "Add the exchange transaction (deprecated)"
 
 # 8df4f32b3f714f408eabafc7347ec857
 #: ../../how-the-platform-works/authorization.rst:30
@@ -156,19 +152,19 @@ msgstr "contract_developer"
 
 # 89d9bd8abcca4600b21355da93759bd2
 #: ../../how-the-platform-works/authorization.rst:30
-#, fuzzy
 msgid "Формирование транзакций на создание docker-контракта"
-msgstr "Add transaction to create a docker contract"
+msgstr "Add the transaction to create a docker contract"
 
 # d83d98147a514b449eb2b9a700490803
 #: ../../how-the-platform-works/authorization.rst:31
 msgid "connection-manager"
-msgstr ""
+msgstr "connection-manager"
 
 # 46c774de4eaa46baaf0a158846959097
 #: ../../how-the-platform-works/authorization.rst:31
 msgid "Формирование транзакций на регистрацию/удаление ноды в блокчейн сети"
 msgstr ""
+"Add the transaction for registering/deleting node in the blockchain network"
 
 # 7966e29d64ea4becbd39b8b609725145
 #: ../../how-the-platform-works/authorization.rst:32
@@ -177,19 +173,13 @@ msgstr "banned"
 
 # 34b2292f215646e7a505365d8ee8a75c
 #: ../../how-the-platform-works/authorization.rst
-#, fuzzy
 msgid "Запрещено отправлять какие-либо транзакции в блокчейн."
-msgstr ""
-"It is forbidden to send any transactions to the blockchain. A group of all "
-"participants with this role forms a blacklist"
+msgstr "It is forbidden to send any transactions to the blockchain."
 
 # 6ec6b687ab574c51843e11fa4e7ae8a7
 #: ../../how-the-platform-works/authorization.rst
-#, fuzzy
 msgid "Группа всех участников с данной ролью образует blacklist"
-msgstr ""
-"It is forbidden to send any transactions to the blockchain. A group of all "
-"participants with this role forms a blacklist"
+msgstr "A group of all participants with this role forms a blacklist"
 
 # 8f9d812b025941f3a925a17718dc6a3a
 #: ../../how-the-platform-works/authorization.rst:37
@@ -238,11 +228,10 @@ msgstr "Available permissioner or blacklister role"
 # 3815ce9b6362449e9318aa9732c043b9
 #: ../../how-the-platform-works/authorization.rst:46
 msgid "Регистрация нового узла сети"
-msgstr ""
+msgstr "Registration of the new node to the net"
 
 # 357063875aec417caa574792e2336e5f
 #: ../../how-the-platform-works/authorization.rst:46
-#, fuzzy
 msgid "Наличие роли connection-manager"
 msgstr "Available contract_developer role"
 

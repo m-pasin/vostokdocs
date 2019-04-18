@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-16 17:14+0300\n"
-"PO-Revision-Date: 2019-04-17 17:33+0300\n"
+"PO-Revision-Date: 2019-04-18 14:22+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -239,7 +239,6 @@ msgstr "Data routing"
 
 # 960c3e1eb92d4c0f8313f673d8cb9953
 #: ../../how-the-platform-works/data-privacy.rst:61
-#, fuzzy
 msgid ""
 "Для обмена конфиденциальными данными участники сетевого взамиодействия "
 "(ноды) должны пройти обязательную регистрацию. Регистрация ноды выполняется "

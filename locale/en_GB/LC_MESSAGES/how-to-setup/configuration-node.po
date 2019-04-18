@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-17 14:46+0300\n"
+"PO-Revision-Date: 2019-04-18 13:48+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -36,7 +36,6 @@ msgstr "To connect to an existing blockchain network, the participant should:"
 
 # 4c1b8745f6d040bf8391f269e9ad0bd6
 #: ../../how-to-setup/configuration-node.rst:11
-#, fuzzy
 msgid ""
 "Получить конфигурационный файл ноды с параметрами блокчейн-сети, к которой "
 "планируется подключение. Для упрощения подключения рекомендуется запросить "
@@ -105,7 +104,6 @@ msgstr ""
 
 # 5584b4f0417443b1a89c16303ec8782c
 #: ../../how-to-setup/configuration-node.rst:23
-#, fuzzy
 msgid ""
 "С помощью утилиты `generators-x.x.x+VST-x.x.x.jar <https://github.com/"
 "vostokplatform/Vostok-Releases/releases>`_ создать хотя бы одного участника "
@@ -150,7 +148,6 @@ msgstr ""
 
 # 5b896f11824842789bde573aaf0835f3
 #: ../../how-to-setup/configuration-node.rst:28
-#, fuzzy
 msgid ""
 "При необходимости активации :ref:`REST API интерфейса <rest-api-node>` на "
 "настраиваемом узле, необходимо с помощью утилиты `generators-x.x.x+VST-x.x.x."
@@ -262,7 +259,6 @@ msgstr "**Description of parameters:**"
 # f4acff957498438eaf3536b17c3fb685
 #: ../../how-to-setup/configuration-node.rst:70
 #: ../../how-to-setup/configuration-node.rst:206
-#, fuzzy
 msgid ""
 "waves-crypto – выбор криптографического алгоритма (\"yes\" - использовать "
 "криптографию :ref:`Waves <crypto-waves>`, \"no\" - использовать :ref:`ГОСТ-"
@@ -303,7 +299,6 @@ msgstr ""
 
 # 29056e54957a41ed9282b0e92bb572af
 #: ../../how-to-setup/configuration-node.rst
-#, fuzzy
 msgid ""
 "- При указании пути необходимо использовать символ \"прямого слэша\" - ``/`` "
 "как разделитель уровней иерархии директорий."
@@ -743,7 +738,7 @@ msgstr ""
 "For registration of a new node an owner of a new node must provide the new node "
 "name and its public key to the network administrator. After this connection-"
 "manager can publish :ref:`RegisterNode<RegisterNodeTransaction>` transaction "
-"which says there is a new authorized participant in the network."
+"which says there is a new authorized participant in the network:"
 
 # 5f95b0e792d645a4b63e3748af5fc5e6
 #~ msgid ""

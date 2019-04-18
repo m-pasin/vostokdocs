@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-04-18 10:14+0300\n"
+"PO-Revision-Date: 2019-04-18 13:46+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,7 +36,7 @@ msgstr ""
 "achieve the consistency and the availability of data, as well as the resistance to "
 "malicious change of information. The platform uses the Scala programming language and "
 "has a modular architecture providing wide opportunities for customization and "
-"configuration of applications for the business. "
+"configuration of applications for the business."
 
 # f0cc526c2a364f219eda782484ed0476
 #: ../../how-the-platform-works/architecture.rst:8
@@ -64,8 +64,8 @@ msgstr ""
 "Anchoring mechanism uses strengths of both consensus algorithms for creating a net "
 "configuration. The main blockchain Vostok is based on the Proof-of-Stake consensus "
 "algorithm, since it is supported by independent participants. At the same time, "
-"enterprise sidechains which do not need to stimulate miners by means of transaction "
-"fees, can use the Proof-of-Authority algorithm. Sidechains are embedded in the main "
+"enterprise sidechains do not need to stimulate miners by means of transaction fees "
+"and can use the Proof-of-Authority algorithm. Sidechains are embedded in the main "
 "blockchain using the anchoring mechanism (by placing cryptographic proof of "
 "transactions in the main blockchain network)."
 
@@ -179,7 +179,7 @@ msgid ""
 msgstr ""
 "Vostok corporate client – a corporate client for managing a network and interacting "
 "with the blockchain. For more details see the :ref:`General Description of Client "
-"<client>` module."
+"<client>` module"
 
 # c86f485873c24e3f995a2b907ab981ed
 #: ../../how-the-platform-works/architecture.rst:42

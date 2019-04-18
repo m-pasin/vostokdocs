@@ -88,7 +88,7 @@
 Если одна из нод не укажет новые параметры, то произойдет форк.
 Пример конфигурации :
 ::
-    // указывается внутри параметра blockchain
+    // specifying inside of the blockchain parameter
     consensus {
       type = poa
       sync-duration = 10s
