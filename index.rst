@@ -45,9 +45,10 @@
    :name: how-to-use
 
    how-to-use/rest-api-node
-   how-to-use/smart-contracts-ride
    how-to-use/smart-contracts-docker
    how-to-use/role-management
+.. how-to-use/smart-contracts-ride
+   
 
 
 .. toctree::
