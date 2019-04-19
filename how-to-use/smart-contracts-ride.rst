@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 3
    :caption: Смарт-контракты RIDE
+
    smart-contracts/ride/examples
    smart-contracts/ride/helpful-waves-docs-links
 
