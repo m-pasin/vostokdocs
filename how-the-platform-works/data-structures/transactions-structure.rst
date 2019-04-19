@@ -1153,7 +1153,7 @@
     "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // id существующей политики, иначе ошибка "Object with policyId = <reqest id> does not exist"
     "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
     "timestamp": 1000000000,
-    "opType": "add", // или "remove" при удалении участников из политики
+    "opType": "add", // or "remove" during deleting the participants from the policy
     "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
     "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
     }
