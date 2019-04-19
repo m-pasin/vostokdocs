@@ -1150,7 +1150,7 @@
 
     {
     "type":113,
-    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // id существующей политики, иначе ошибка "Object with policyId = <reqest id> does not exist"
+    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // the id of the existing policy, otherwise there will be the error "Object with policyId = <reqest id> does not exist"
     "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
     "timestamp": 1000000000,
     "opType": "add", // or "remove" during deleting the participants from the policy
