@@ -32,7 +32,7 @@
 
 **Схема процесса**
 
-.. image:: c:/vostokdocs/img/data-transfer-privacy.png
+.. image:: ../img/data-transfer-privacy.png
    :align: center
 
 
