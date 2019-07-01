@@ -87,6 +87,7 @@ body {
 
 .description {
   display: flex;
+  padding-bottom: 128px;
 }
 
 .description--type--reverse {
