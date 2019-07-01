@@ -29,6 +29,26 @@ body {
   font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
+/* common */
+.button {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: transparent;
+  width: 243px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.button__text {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.header__content, .description {
+  width: 832px;
+}
+
 /* header */
 .header {
   display: flex;
@@ -40,10 +60,6 @@ body {
   background-size: cover;
   background-position: center;
   color: #ffffff;
-}
-
-.header__content {
-  width: 832px;
 }
 
 .header__item:not(:first-child) {
@@ -61,22 +77,6 @@ body {
   line-height: 1.6;
 }
 
-/* common */
-.button {
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  background: transparent;
-  width: 243px;
-  height: 48px;
-  cursor: pointer;
-}
-
-.button__text {
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-}
-
 /* body */
 .content {
   display: flex;
@@ -88,12 +88,8 @@ body {
   display: flex;
 }
 
-.description--reverse {
+.description--type--reverse {
   flex-direction: row-reverse;
-}
-
-.description__title, .description__text {
-  width: 448px;
 }
 
 .description__title {
@@ -101,4 +97,14 @@ body {
   font-weight: bold;
   line-height: 1;
   color: #081e58;
+}
+
+.description--type--normal .description__half:nth-child(2) {
+  padding-left: 32px;
+  padding-top: 32px;
+}
+
+.description--type--reverse .description__half:nth-child(2) {
+  padding-right: 32px;
+  padding-top: 32px;
 }
