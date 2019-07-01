@@ -95,3 +95,10 @@ body {
 .description__title, .description__text {
   width: 448px;
 }
+
+.description__title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  color: #081e58;
+}
