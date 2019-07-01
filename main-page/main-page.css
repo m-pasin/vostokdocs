@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "GraphikLC";
+  src: url("./_static/fonts/Graphik-Regular-Web.woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GraphikLC";
+  src: url("./_static/fonts/Graphik-Medium-Web.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "GraphikLC";
+  src: url("./_static/fonts/Graphik-Bold-Web.woff2");
+  font-weight: bold;
+}
+
+body {
+  font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 379px;
+  background-image: url("./_static/img/space5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.header__content {
+  width: 832px;
+}
+
+.header__item {
+  margin-top: 32px;
+}
+
+.vst-logo {
+  background: url("./_static/img/vostok-logo-docs-big.svg") no-repeat;
+  width: 320px;
+  height: 43px;
+}
+
+.header__text {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.button__text {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.button {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: transparent;
+  width: 243px;
+  height: 48px;
+  cursor: pointer;
+}
