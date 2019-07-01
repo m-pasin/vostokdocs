@@ -82,6 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 64px;
 }
 
 .description {
@@ -97,6 +98,13 @@ body {
   font-weight: bold;
   line-height: 1;
   color: #081e58;
+}
+
+.description__text {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #000000;
+  margin-top: 24px;
 }
 
 .description--type--normal .description__half:nth-child(2) {
