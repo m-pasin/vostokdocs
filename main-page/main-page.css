@@ -44,7 +44,7 @@ body {
   width: 832px;
 }
 
-.header__item {
+.header__item:not(:first-child) {
   margin-top: 32px;
 }
 
