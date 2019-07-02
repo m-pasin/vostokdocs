@@ -14,7 +14,8 @@ RUN make --directory=_build/pdf/en all LATEXOPTS="-interaction=nonstopmode" || :
 
 
 FROM nginx:1.15-alpine
-COPY --from=static /vostokdocs/_build/html /usr/share/nginx/html
+COPY --from=static /vostokdocs/landing/ /usr/share/nginx/html
+COPY --from=static /vostokdocs/_build/html /usr/share/nginx/html/docs
 COPY --from=static /vostokdocs/_build/pdf/Sphinx.pdf /usr/share/nginx/html/vostokdocs.pdf
-COPY --from=static /vostokdocs/_build/html/en /usr/share/nginx/html/en
+COPY --from=static /vostokdocs/_build/html/en /usr/share/nginx/html/docs/en
 COPY --from=static /vostokdocs/_build/pdf/en/Sphinx.pdf /usr/share/nginx/html/en/vostokdocs-en.pdf
