@@ -132,3 +132,10 @@ body {
   font-size: 16px;
   line-height: 1.75;
 }
+
+.footer__copyright > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #081e58;
+  border-bottom: 4px solid rgba(8, 30, 88, 0.2);
+}
