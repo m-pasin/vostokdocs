@@ -1,3 +1,17 @@
+var LANG_CHOICES = {
+    ru: "ru",
+    en: "en",
+};
+
+var DEFAULT_LANG = LANG_CHOICES.ru;
+
+var currentLang = DEFAULT_LANG;
+
+var translation = {
+    ru: null,
+    en: null,
+};
+
 function qs(selector) {
     return document.querySelector(selector);
 }
@@ -20,21 +34,30 @@ function insertTranslation(response) {
     headerButton.innerHTML = response.header_button;
 }
 
-function requestTranslation() {
+function init() {
+    var langSwitcher = qs('#lang-switcher');
+    langSwitcher.innerHTML = DEFAULT_LANG;
+    langSwitcher.onclick = function (event) {
+        console.log(translation);
+        if (currentLang === LANG_CHOICES.ru) {
+            currentLang = LANG_CHOICES.en;
+        } else if (currentLang === LANG_CHOICES.en) {
+            currentLang = LANG_CHOICES.ru;
+        }
+        event.target.innerHTML = currentLang;
+    };
+
     request({
-        url: "/_static/locales/ru.json",
-        callback: insertTranslation
+        url: "/_static/locales/" + currentLang + ".json",
+        callback: function (response) {
+            translation[currentLang] = response;
+            insertTranslation(response);
+        }
     });
-/*
-    request({
-        url: "/_static/locales/en.json",
-        callback: insertTranslation
-    });
-*/
 }
 
 function main() {
-    document.addEventListener("DOMContentLoaded", requestTranslation);
+    document.addEventListener("DOMContentLoaded", init);
 }
 
 main();
