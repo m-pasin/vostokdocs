@@ -48,12 +48,21 @@ body {
   letter-spacing: 0.3px;
 }
 
+.lang-switcher {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+
 .header__content, .description, .footer__content {
   width: 832px;
 }
 
 /* header */
 .header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
