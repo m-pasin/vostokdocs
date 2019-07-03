@@ -7,8 +7,6 @@ var LANG_CHOICE_ACTIVE_CLASS = "lang-switcher__lang-choice--active";
 
 var DEFAULT_LANG = LANG_CHOICES.ru;
 
-var currentLang = DEFAULT_LANG;
-
 var translation = {
     ru: null,
     en: null,
@@ -50,20 +48,12 @@ function switchLang(event) {
         langChoices[i].classList.remove(LANG_CHOICE_ACTIVE_CLASS);
     }
     event.target.classList.add(LANG_CHOICE_ACTIVE_CLASS);
-/*
-    if (currentLang === LANG_CHOICES.ru) {
-        currentLang = LANG_CHOICES.en;
-        if (translation.en !== null) {
-            insertTranslation(translation.en)
-        }
+    var currentLang = event.target.getAttribute('data-lang');
+    if (currentLang === LANG_CHOICES.ru && translation.ru !== null) {
+        insertTranslation(translation.ru)
     } else if (currentLang === LANG_CHOICES.en) {
-        currentLang = LANG_CHOICES.ru;
-        if (translation.ru !== null) {
-            insertTranslation(translation.ru)
-        }
+        insertTranslation(translation.en)
     }
-    event.target.innerHTML = currentLang;
-*/
 }
 
 function init() {
