@@ -3,6 +3,8 @@ var LANG_CHOICES = {
     en: "en",
 };
 
+var LANG_CHOICE_ACTIVE_CLASS = "lang-switcher__lang-choice--active";
+
 var DEFAULT_LANG = LANG_CHOICES.ru;
 
 var currentLang = DEFAULT_LANG;
@@ -43,6 +45,11 @@ function insertTranslation(translation) {
 }
 
 function switchLang(event) {
+    var langChoices = document.querySelectorAll(".lang-switcher__lang-choice");
+    for (var i = 0; i < langChoices.length; i++) {
+        langChoices[i].classList.remove(LANG_CHOICE_ACTIVE_CLASS);
+    }
+    event.target.classList.add(LANG_CHOICE_ACTIVE_CLASS);
 /*
     if (currentLang === LANG_CHOICES.ru) {
         currentLang = LANG_CHOICES.en;
@@ -61,7 +68,7 @@ function switchLang(event) {
 
 function init() {
     var langSwitcher = qs('#lang-switcher');
-    // langSwitcher.innerHTML = DEFAULT_LANG;
+    qs('#lang-choice-' + DEFAULT_LANG).classList.add(LANG_CHOICE_ACTIVE_CLASS);
     langSwitcher.onclick = switchLang;
 
     request({
