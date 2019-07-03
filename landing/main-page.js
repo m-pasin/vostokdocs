@@ -58,8 +58,9 @@ function switchLang(event) {
 
 function init() {
     var langSwitcher = qs('#lang-switcher');
-    qs('#lang-choice-' + DEFAULT_LANG).classList.add(LANG_CHOICE_ACTIVE_CLASS);
     langSwitcher.onclick = switchLang;
+    var langChoice = qs('#lang-choice-' + DEFAULT_LANG);
+    langChoice.classList.add(LANG_CHOICE_ACTIVE_CLASS);
 
     request({
         url: "/_static/locales/" + LANG_CHOICES.ru + ".json",
