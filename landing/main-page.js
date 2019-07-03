@@ -51,7 +51,7 @@ function switchLang(event) {
     var currentLang = event.target.getAttribute('data-lang');
     if (currentLang === LANG_CHOICES.ru && translation.ru !== null) {
         insertTranslation(translation.ru)
-    } else if (currentLang === LANG_CHOICES.en) {
+    } else if (currentLang === LANG_CHOICES.en && translation.en !== null) {
         insertTranslation(translation.en)
     }
 }
