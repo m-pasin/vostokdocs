@@ -57,8 +57,11 @@ function switchLang(event) {
 }
 
 function init() {
-    var langSwitcher = qs('#lang-switcher');
-    langSwitcher.onclick = switchLang;
+    var langChoices = document.querySelectorAll(".lang-switcher__lang-choice");
+    for (var i = 0; i < langChoices.length; i++) {
+        langChoices[i].onclick = switchLang;
+    }
+
     var langChoice = qs('#lang-choice-' + DEFAULT_LANG);
     langChoice.classList.add(LANG_CHOICE_ACTIVE_CLASS);
 
