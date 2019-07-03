@@ -26,12 +26,20 @@ function request(data) {
     requestRu.send();
 }
 
-function insertTranslation(response) {
+function insertTranslation(translation) {
     var header = qs(".header__text.header__item");
-    header.innerHTML = response.header;
+    header.innerHTML = translation.header;
 
     var headerButton = qs(".button__text");
-    headerButton.innerHTML = response.header_button;
+    headerButton.innerHTML = translation.header_button;
+
+    for (var i = 1; i <= 5; i++) {
+        var contentItem = qs('.content .content__item:nth-child(' + i + ')');
+        var title = contentItem.getElementsByClassName('description__title')[0];
+        title.innerHTML = translation.content[i].title;
+        var text = contentItem.getElementsByClassName('description__text')[0];
+        text.innerHTML = translation.content[i].text;
+    }
 }
 
 function switchLang(event) {

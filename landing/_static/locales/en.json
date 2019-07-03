@@ -1,14 +1,26 @@
 {
   "header": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en ",
   "header_button": "en en en en en",
-  "content_item_1_title": "en en en en en",
-  "content_item_1_text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en ",
-  "content_item_2_title": "en en en en en",
-  "content_item_2_text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en ",
-  "content_item_3_title": "en en en en en",
-  "content_item_3_text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en ",
-  "content_item_4_title": "en en en en en",
-  "content_item_4_text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en ",
-  "content_item_5_title": "en en en en en",
-  "content_item_5_text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en "
+  "content": {
+    "1": {
+      "title": "en en en en en",
+      "text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en "
+    },
+    "2": {
+      "title": "en en en en en",
+      "text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en "
+    },
+    "3": {
+      "title": "en en en en en",
+      "text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en "
+    },
+    "4": {
+      "title": "en en en en en",
+      "text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en "
+    },
+    "5": {
+      "title": "en en en en en",
+      "text": "en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en en "
+    }
+  }
 }
