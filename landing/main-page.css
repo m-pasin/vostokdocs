@@ -74,7 +74,11 @@ body {
   color: #ffffff;
 }
 
-.header__item:not(:first-child) {
+.vst-logo.header__item {
+  margin-top: 0;
+}
+
+.header__item {
   margin-top: 32px;
 }
 
