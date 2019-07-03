@@ -34,24 +34,42 @@ function insertTranslation(response) {
     headerButton.innerHTML = response.header_button;
 }
 
+function switchLang(event) {
+    if (currentLang === LANG_CHOICES.ru) {
+        currentLang = LANG_CHOICES.en;
+        if (translation.en !== null) {
+            insertTranslation(translation.en)
+        }
+    } else if (currentLang === LANG_CHOICES.en) {
+        currentLang = LANG_CHOICES.ru;
+        if (translation.ru !== null) {
+            insertTranslation(translation.ru)
+        }
+    }
+    event.target.innerHTML = currentLang;
+}
+
 function init() {
     var langSwitcher = qs('#lang-switcher');
     langSwitcher.innerHTML = DEFAULT_LANG;
-    langSwitcher.onclick = function (event) {
-        console.log(translation);
-        if (currentLang === LANG_CHOICES.ru) {
-            currentLang = LANG_CHOICES.en;
-        } else if (currentLang === LANG_CHOICES.en) {
-            currentLang = LANG_CHOICES.ru;
-        }
-        event.target.innerHTML = currentLang;
-    };
+    langSwitcher.onclick = switchLang;
 
     request({
-        url: "/_static/locales/" + currentLang + ".json",
+        url: "/_static/locales/" + LANG_CHOICES.ru + ".json",
         callback: function (response) {
-            translation[currentLang] = response;
-            insertTranslation(response);
+            translation.ru = response;
+            if (DEFAULT_LANG === LANG_CHOICES.ru) {
+                insertTranslation(response);
+            }
+        }
+    });
+    request({
+        url: "/_static/locales/" + LANG_CHOICES.en + ".json",
+        callback: function (response) {
+            translation.en = response;
+            if (DEFAULT_LANG === LANG_CHOICES.en) {
+                insertTranslation(response)
+            }
         }
     });
 }
