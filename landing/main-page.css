@@ -30,6 +30,11 @@ body {
 }
 
 /* common */
+.page-width {
+  width: 832px;
+  min-width: 832px;
+}
+
 .button {
   display: block;
   color: #ffffff;
@@ -68,10 +73,6 @@ body {
 
 .lang-switcher__lang-choice--active {
   color: rgba(255, 255, 255, 1);
-}
-
-.header__content, .description, .footer__content {
-  width: 832px;
 }
 
 /* header */
